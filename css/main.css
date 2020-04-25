@@ -1,0 +1,105 @@
+/***** BASE STYLES ***** /
+} body
+font-family: 'Bubblegum Sans', cursive;
+color: black;
+}
+#section-one, #section-two, #section-three {
+    height: 300 px;
+}
+/*****GRID*****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+/***** HEADER *****/
+#top-section img {
+    width: auto;
+    height: auto;
+    border: 2px solid #ff3300;
+}
+h1 {
+    padding: 65px 0px 65px 0px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 30px;
+    color: black;
+}    
+.emphasis-1 {
+    color: #ff3300;
+}
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li {
+    color: #ff3300;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 16px;
+    padding-left: 0px;
+    text-decoration: none;
+}
+/*****top-section*****/
+#top-section h2 {
+    color: #ff3300;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 18px;
+    padding: 0px 0px 20px 0px;
+    width: 1000px;
+}
+#top-section p {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+    font-weight: normal;
+}
+/*****bottom-section*****/
+#bottom-section h4 {
+    color: black;
+    font-family: 'Bubblegum Sans', cursive;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 12px;
+}
+#Section-one p {
+    color: #ff3300;
+    font-family: 'Bubblegum Sans', cursive;
+    line-height: 18px;
+    font-size: 16px;
+}
+#Section-two p {
+    color: black;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 16px;
+    font-weight: normal;
+    width: 329px;
+}
+#Section-three p {
+    color: black;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 16px;
+    line-height: 2px;
+    font-weight: normal;
+}
+#fresh-tag {
+    clear: both;
+    text-align: center;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: bold;
+    font-size: 12px;
+}
+.emphasis-2 {
+    color: #ff3300;
+    font-family: 'Bubblegum Sans', cursive;}
